@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Play_List_Service:war">
+    <output-path>$PROJECT_DIR$/Backend/Play_List_Service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Play_List_Service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Play_List_Service-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Play_List_Service:war exploded" />
+    </root>
+  </artifact>
+</component>

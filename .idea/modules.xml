@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AudioHub.iml" filepath="$PROJECT_DIR$/.idea/AudioHub.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Backend/Play_List_Service/Play_List_Service.iml" filepath="$PROJECT_DIR$/Backend/Play_List_Service/Play_List_Service.iml" />
+    </modules>
+  </component>
+</project>
