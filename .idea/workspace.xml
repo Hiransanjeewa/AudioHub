@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Server port changed">
-      <change beforePath="$PROJECT_DIR$/Backend/Play_List_Service/src/main/java/com/AudioHub/Play_List_Service/playListController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Play_List_Service/src/main/java/com/AudioHub/Play_List_Service/playListController.java" afterDir="false" />
+    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Endpoint type chaned to Get">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1690169107542</updated>
       <workItem from="1690169108614" duration="1334000" />
-      <workItem from="1690185980723" duration="645000" />
+      <workItem from="1690185980723" duration="2509000" />
     </task>
     <task id="LOCAL-00001" summary="Play List Service spring boot project Iniitialized">
       <created>1690169180422</created>
@@ -115,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690186443619</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Endpoint type chaned to Get">
+      <created>1690186687234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690186687234</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
     <MESSAGE value="Play List Service spring boot project Iniitialized" />
     <MESSAGE value="Sample endpoint added to test if the container running nicely with jenkins" />
     <MESSAGE value="Server port changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Server port changed" />
+    <MESSAGE value="Endpoint type chaned to Get" />
+    <option name="LAST_COMMIT_MESSAGE" value="Endpoint type chaned to Get" />
   </component>
 </project>
