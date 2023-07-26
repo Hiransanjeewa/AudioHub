@@ -5,6 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Endpoint type chaned to Get">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Music_Services_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Music_Services_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UserServices_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/UserServices_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/User_Services_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/User_Services_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/src/main/java/com/AudioHub/Music_Services/MusicServiceAppication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/src/main/java/com/AudioHub/Music_Services/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/src/main/java/com/AudioHub/Music_Services/musicServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/src/test/java/com/AudioHub/Music_Services/MusicServiceAppicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserServicesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/userServicesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/src/test/java/com/AudioHub/User_Services/UserServicesApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +83,7 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "/Users/hiran/Desktop/AudioHub",
@@ -57,6 +91,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "MavenSettings",
     "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "208edbf91773341b52dfce40d4a05d2f",
     "vue.rearranger.settings.migration": "true"
@@ -67,10 +102,24 @@
       <recent name="com.AudioHub.Play_List_Service" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.MusicServiceAppication">
+    <configuration name="MusicServiceAppication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Music_Services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.AudioHub.Music_Services.MusicServiceAppication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayListServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Play_List_Service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.AudioHub.Play_List_Service.PlayListServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServicesApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="User_Services" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.AudioHub.User_Services.UserServicesApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,6 +135,7 @@
       <updated>1690169107542</updated>
       <workItem from="1690169108614" duration="1334000" />
       <workItem from="1690185980723" duration="2509000" />
+      <workItem from="1690364002242" duration="1781000" />
     </task>
     <task id="LOCAL-00001" summary="Play List Service spring boot project Iniitialized">
       <created>1690169180422</created>
