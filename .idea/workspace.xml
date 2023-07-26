@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="All Modules connected to mysql - MYSQL port 8889">
+    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Jenkins workspaces removed with the node from the repository">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Music_Services_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Music_Services_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Play_List_Service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Play_List_Service_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/User_Services_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/User_Services_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Music_Services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Music_Services/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "MavenSettings",
     "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "208edbf91773341b52dfce40d4a05d2f",
+    "spring.configuration.checksum": "47f6f9da7adcb1788070a63106324a24",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +73,7 @@
       <recent name="com.AudioHub.Play_List_Service" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MusicServiceAppication">
+  <component name="RunManager" selected="Spring Boot.UserServicesApplication (1)">
     <configuration name="MusicServiceAppication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Music_Services" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.AudioHub.Music_Services.MusicServiceAppication" />
@@ -103,7 +106,8 @@
       <updated>1690169107542</updated>
       <workItem from="1690169108614" duration="1334000" />
       <workItem from="1690185980723" duration="2509000" />
-      <workItem from="1690364002242" duration="2825000" />
+      <workItem from="1690364002242" duration="4772000" />
+      <workItem from="1690372701408" duration="563000" />
     </task>
     <task id="LOCAL-00001" summary="Play List Service spring boot project Iniitialized">
       <created>1690169180422</created>
@@ -154,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690366447791</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Jenkins workspaces removed with the node from the repository">
+      <created>1690366996097</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1690366996097</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +179,7 @@
     <MESSAGE value="Endpoint type chaned to Get" />
     <MESSAGE value="Music Service and User service modules initialized" />
     <MESSAGE value="All Modules connected to mysql - MYSQL port 8889" />
-    <option name="LAST_COMMIT_MESSAGE" value="All Modules connected to mysql - MYSQL port 8889" />
+    <MESSAGE value="Jenkins workspaces removed with the node from the repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jenkins workspaces removed with the node from the repository" />
   </component>
 </project>
