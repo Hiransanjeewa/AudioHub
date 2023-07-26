@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Music Service and User service modules initialized">
-      <change beforePath="$PROJECT_DIR$/Backend/User_Services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="All Modules connected to mysql - MYSQL port 8889">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Music_Services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Music_Services/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +103,7 @@
       <updated>1690169107542</updated>
       <workItem from="1690169108614" duration="1334000" />
       <workItem from="1690185980723" duration="2509000" />
-      <workItem from="1690364002242" duration="2140000" />
+      <workItem from="1690364002242" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="Play List Service spring boot project Iniitialized">
       <created>1690169180422</created>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690365831575</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="All Modules connected to mysql - MYSQL port 8889">
+      <created>1690366447791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690366447791</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +167,7 @@
     <MESSAGE value="Server port changed" />
     <MESSAGE value="Endpoint type chaned to Get" />
     <MESSAGE value="Music Service and User service modules initialized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Music Service and User service modules initialized" />
+    <MESSAGE value="All Modules connected to mysql - MYSQL port 8889" />
+    <option name="LAST_COMMIT_MESSAGE" value="All Modules connected to mysql - MYSQL port 8889" />
   </component>
 </project>
