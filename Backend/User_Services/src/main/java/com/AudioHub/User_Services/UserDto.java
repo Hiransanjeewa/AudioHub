@@ -1,13 +1,12 @@
 package com.AudioHub.User_Services;
 
 public class UserDto {
-    public int userid;
-    public String username;
-    public String password;
+    private int userid;
+    private static String username;
+    private static String password;
+    private static String email;
 
 
-    public UserDto() {
-    }
 
     public int getUserid() {
         return userid;
@@ -31,5 +30,13 @@ public class UserDto {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }

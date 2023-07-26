@@ -5,12 +5,20 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin
-@RequestMapping("api/songs/")
+@RequestMapping("api/users/")
 public class userServicesController {
 
-    @PostMapping(path = "getsongs")
-    public String GetSongs(@RequestBody String username,String password){
-        return "Hello user "+ username + "You are logged in with the pasword" + password  ;
+    @PostMapping(path = "saveuser")
+    public String GetSongs(@RequestBody UserDto newuser){
+        UserDto user = new UserDto (
+                UserDto.setPassword =newuser.getUsername(),
+                UserDto.password= newuser.getPassword(),
+                UserDto.username=newuser.getUsername()
+        );
+
+      // UserRepo.save(user);
+        System.out.println(user);
+        return "Hello user "+ user.getUsername() + "You are logged in with the pasword" + user.getPassword()  ;
     }
 
 }
