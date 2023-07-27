@@ -1,7 +1,10 @@
 package com.AudioHub.User_Services;
 
 
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
 
 @RestController
 @CrossOrigin
@@ -9,20 +12,21 @@ import org.springframework.web.bind.annotation.*;
 public class userServicesController {
 
 
-    private UserRepo userRepo;
-    private  UserServices userServices;
+
+
+    private UserServices saveuser ;
+
     @PostMapping(path = "saveuser")
-    public String GetSongs(@RequestBody UserDto userDto){
-//        Users user = new Users (
-//
-//        );
+    public UserDto GetSongs(@RequestBody UserDto userDto){
 
-        String Output = userServices.saveuser(userDto);
+        System.out.println(userDto.getPassword());
+         saveuser.saveuser(userDto);
 
+        return userDto;
 
       // UserRepo.save(user);
-        System.out.println(Output);
-        return Output ;
+       // System.out.println(Output);
+       // return Output ;
     }
 
 }
