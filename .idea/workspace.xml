@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Services connected to mysql database" />
+    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment=" User Dto created with">
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserServices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Unconfirmed 984405.crdownload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/User_Services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/userServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/userServicesController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -102,7 +113,8 @@
       <workItem from="1690185980723" duration="2509000" />
       <workItem from="1690364002242" duration="4772000" />
       <workItem from="1690372701408" duration="563000" />
-      <workItem from="1690373269165" duration="1838000" />
+      <workItem from="1690373269165" duration="7264000" />
+      <workItem from="1690426239286" duration="1294000" />
     </task>
     <task id="LOCAL-00001" summary="Play List Service spring boot project Iniitialized">
       <created>1690169180422</created>
@@ -167,7 +179,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690376076066</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dependencies updated and songDto, UserDto , PlaylistDto created">
+      <created>1690376855485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1690376855485</updated>
+    </task>
+    <task id="LOCAL-00011" summary=" User Dto created with">
+      <created>1690379354192</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1690379354192</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +209,8 @@
     <MESSAGE value="All Modules connected to mysql - MYSQL port 8889" />
     <MESSAGE value="Jenkins workspaces removed with the node from the repository" />
     <MESSAGE value="Services connected to mysql database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Services connected to mysql database" />
+    <MESSAGE value="dependencies updated and songDto, UserDto , PlaylistDto created" />
+    <MESSAGE value=" User Dto created with" />
+    <option name="LAST_COMMIT_MESSAGE" value=" User Dto created with" />
   </component>
 </project>

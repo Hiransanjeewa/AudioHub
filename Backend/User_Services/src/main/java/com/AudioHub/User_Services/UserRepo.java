@@ -8,7 +8,7 @@ import org.springframework.stereotype.Repository;
 
 @EnableJpaRepositories
 @Repository
-public interface UserRepo  extends  JpaRepository <UserDto, Integer> {
+public interface UserRepo  extends  JpaRepository <Users, Integer> {
 
 
     @Query(value="select * from Users where username=:username", nativeQuery=true)
@@ -16,8 +16,8 @@ public interface UserRepo  extends  JpaRepository <UserDto, Integer> {
 
 
     @Modifying
-    @Query(value="insert into Users VALUES (?1,)", nativeQuery=true)
-    Integer saveOtp(String email,Integer otp);
+    @Query(value="insert into Users VALUES (?1,?2,?3)", nativeQuery=true)
+    Integer saveOtp(String username,String password, String email);
 
 
 

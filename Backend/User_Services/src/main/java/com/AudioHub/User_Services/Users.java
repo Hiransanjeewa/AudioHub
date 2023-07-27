@@ -16,11 +16,52 @@ public class Users {
     @Column(name = "username",length = 20,nullable = false)
     private String username;
 
-    @Column(name = "secondName",length = 30,nullable = false)
+    @Column(name = "email",length = 30,nullable = false)
     private String firstName;
 
+    @Column(name = "password",length = 30,nullable = false)
+    private String password;
 
 
+    public Users(int userId, String username, String firstName, String password) {
+        this.userId = userId;
+        this.username = username;
+        this.firstName = firstName;
+        this.password = password;
+    }
 
+    public Users() {
+    }
 
+    public int getUserId() {
+        return userId;
+    }
+
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }

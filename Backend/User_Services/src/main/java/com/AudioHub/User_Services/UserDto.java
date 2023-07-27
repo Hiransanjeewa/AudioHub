@@ -1,12 +1,21 @@
 package com.AudioHub.User_Services;
 
 public class UserDto {
+
     private int userid;
-    private static String username;
-    private static String password;
-    private static String email;
+    private  String username;
+    private  String password;
+    private  String email;
 
+    public UserDto(int userid, String username, String password, String email) {
+        this.userid = userid;
+        this.username = username;
+        this.password = password;
+        this.email = email;
+    }
 
+    public UserDto() {
+    }
 
     public int getUserid() {
         return userid;

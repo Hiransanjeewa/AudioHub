@@ -8,17 +8,21 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("api/users/")
 public class userServicesController {
 
+
+    private UserRepo userRepo;
+    private  UserServices userServices;
     @PostMapping(path = "saveuser")
-    public String GetSongs(@RequestBody UserDto newuser){
-        UserDto user = new UserDto (
-                UserDto.setPassword =newuser.getUsername(),
-                UserDto.password= newuser.getPassword(),
-                UserDto.username=newuser.getUsername()
-        );
+    public String GetSongs(@RequestBody UserDto userDto){
+//        Users user = new Users (
+//
+//        );
+
+        String Output = userServices.saveuser(userDto);
+
 
       // UserRepo.save(user);
-        System.out.println(user);
-        return "Hello user "+ user.getUsername() + "You are logged in with the pasword" + user.getPassword()  ;
+        System.out.println(Output);
+        return Output ;
     }
 
 }
