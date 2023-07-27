@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="User acc info saving option added">
+    <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Sign in Service completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserServicesImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/userServicesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/userServicesController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings",
     "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "47f6f9da7adcb1788070a63106324a24",
@@ -109,7 +107,8 @@
       <workItem from="1690364002242" duration="4772000" />
       <workItem from="1690372701408" duration="563000" />
       <workItem from="1690373269165" duration="7264000" />
-      <workItem from="1690426239286" duration="6682000" />
+      <workItem from="1690426239286" duration="8045000" />
+      <workItem from="1690458953188" duration="825000" />
     </task>
     <task id="LOCAL-00001" summary="Play List Service spring boot project Iniitialized">
       <created>1690169180422</created>
@@ -202,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690449817500</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Sign in Service completed">
+      <created>1690451872611</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1690451872611</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +228,7 @@
     <MESSAGE value=" User Dto created with" />
     <MESSAGE value="Errors solved in UserServicesImpl" />
     <MESSAGE value="User acc info saving option added" />
-    <option name="LAST_COMMIT_MESSAGE" value="User acc info saving option added" />
+    <MESSAGE value="Sign in Service completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sign in Service completed" />
   </component>
 </project>

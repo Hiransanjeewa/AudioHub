@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class PlayListServiceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("this is main class");
 		SpringApplication.run(PlayListServiceApplication.class, args);
 	}
 
