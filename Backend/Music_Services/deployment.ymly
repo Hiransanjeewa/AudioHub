@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: music-services
-        image:  hiransanjeewa/getting-started 
+        image: docker.io/library/music_service 
         ports:
         - containerPort: 8087
 

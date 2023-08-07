@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MusicServiceAppication {
 	public static void main(String[] args) {
+		System.out.println("Music service is running");
 		SpringApplication.run(MusicServiceAppication.class, args);
 	}
 
