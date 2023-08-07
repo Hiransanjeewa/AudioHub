@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: music_services
+  labels:
+    app: music_services
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: music_services
+  template:
+    metadata:
+      labels:
+        app: music_services
+    spec:
+      containers:
+      - name: music service
+        image: music_service:latest
+        ports:
+        - containerPort: 8087
+
