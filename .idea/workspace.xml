@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Docker file added to music servie, muSQL dependencies commented temporary.">
-      <change afterPath="$PROJECT_DIR$/Backend/Music_Services/deployment.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Music_Services/src/main/java/com/AudioHub/Music_Services/MusicServiceAppication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Music_Services/src/main/java/com/AudioHub/Music_Services/MusicServiceAppication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Music_Services/src/main/java/com/AudioHub/Music_Services/musicServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Music_Services/src/main/java/com/AudioHub/Music_Services/musicServiceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Music_Services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Music_Services/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +109,7 @@
       <workItem from="1690373269165" duration="7264000" />
       <workItem from="1690426239286" duration="8045000" />
       <workItem from="1690458953188" duration="1657000" />
-      <workItem from="1691379668300" duration="7064000" />
+      <workItem from="1691379668300" duration="11500000" />
     </task>
     <task id="LOCAL-00001" summary="Play List Service spring boot project Iniitialized">
       <created>1690169180422</created>
