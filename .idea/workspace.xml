@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="139fb8c1-648b-46c4-8db2-2c8d2ed980ab" name="Changes" comment="Docker file added to music servie, muSQL dependencies commented temporary.">
+      <change afterPath="$PROJECT_DIR$/Backend/Play_List_Service/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Play_List_Service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Play_List_Service_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/User_Services_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/User_Services_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mysql_mysql_connector_j_8_0_33.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Music_Services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Music_Services/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Play_List_Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Play_List_Service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Play_List_Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Play_List_Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/User_Services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserServicesImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/java/com/AudioHub/User_Services/UserServicesImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/User_Services/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/User_Services/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,32 +51,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hiran/Desktop/AudioHub&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;47f6f9da7adcb1788070a63106324a24&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/hiran/Desktop/AudioHub/Backend/Play_List_Service",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "47f6f9da7adcb1788070a63106324a24",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.AudioHub.Play_List_Service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Backend/Play_List_Service" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.UserServicesApplication (1)">
@@ -110,6 +121,7 @@
       <workItem from="1690426239286" duration="8045000" />
       <workItem from="1690458953188" duration="1657000" />
       <workItem from="1691379668300" duration="11500000" />
+      <workItem from="1691489788934" duration="982000" />
     </task>
     <task id="LOCAL-00001" summary="Play List Service spring boot project Iniitialized">
       <created>1690169180422</created>

@@ -30,7 +30,7 @@ public class UserServicesImpl implements UserServices{
                         userDto.getPassword()
                 );
                 users.setPassword(encPassword);
-                userRepo.save(users);
+              //  userRepo.save(users);
                 return "Welcome "+users.getUsername()+", please sign into your account";
             }else {
                 return "Your email already have an account";
